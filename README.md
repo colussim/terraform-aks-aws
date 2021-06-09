@@ -83,13 +83,13 @@ Next step : deploy an application in our cluster .
 
 ## Resources :
 
-[![Documentation, the Terraform Documentation](/images/terraform.png){:height="50px" width="57px"}](https://www.terraform.io/docs/index.html "the Terraform Documentation"){:target="_blank" } Terraform Documentation
+![Documentation, the Terraform Documentation](https://www.terraform.io/docs/index.html "the Terraform Documentation")
 
-[![Documentation, Provision an EKS Cluster (AWS)](/images/terraform.png){:height="50px" width="57px"}](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster"){:target="_blank" } Provision an EKS Cluster (AWS)
+![Documentation, Provision an EKS Cluster (AWS)](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster")
 
-[![Documentation, the AWS IAM Authenticator for Kubernetes](/images/awsauth.png){:height="50px" width="50px"}](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes"){:target="_blank" } AWS IAM Authenticator for Kubernetes
+![Documentation, the AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes")
 
-[![Documentation, the AWS CLI](/images/awscli.png){:height="50px" width="50px"}](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI"){:target="_blank" } AWS CLI
+![Documentation, the AWS CLI](/images/awscli.png)(https://github.com/aws/aws-cli/tree/v2 "the AWS CLI") AWS CLI
 
 
 Next step , see details here

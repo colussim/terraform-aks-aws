@@ -1,4 +1,4 @@
-Create Amazon EKS cluster using Terraform
+## Create Amazon EKS cluster using Terraform
 
 The purpose of this tutorial is to create an EKS cluster (3 nodes) with Terraform. Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service by AWS.
 
@@ -26,3 +26,71 @@ Before you get started, you’ll need to have these things:
 ## Initial setup
 
 The first thing to set up is your Terraform. We will create an AWS IAM users for Terraform.
+In your AWS console, go to the IAM section and create a user named “FullAccess”. Then add your user to a group named “FullAccessGroup”. Attaches to this group the following rights:
+
+```
+
+AdministratorAccess
+AmazonEKSClusterPolicy
+
+```
+fter these steps, AWS will provide you a Secret Access Key and Access Key ID. Save them preciously because this will be the only time AWS gives it to you.
+
+In your own console, create a **~/.aws/credentials** file and put your credentials in it:
+```
+[default]
+ aws_access_key_id=***********
+ aws_secret_access_key=****************************
+
+```
+
+Creating the EKS cluster is pretty easy by just running terraform apply.
+Clone the repository and install the dependencies:
+
+```
+
+$ git clone https://github.com/colussim/terraform-aks-aws.git
+$ cd terraform-aks-aws
+$ terraform init
+
+```
+
+The terraform template installs a three worker nodes cluster with an instance of type : t2.large.
+These parameters can be changed in the file :  **ek-cluster.tf**
+
+## Usage
+
+Create an EKS Cluster :
+
+```
+$ terraform apply
+```
+
+After 15 minutes the cluster is up running
+
+Tear down the whole Terraform plan with :
+
+```
+$ terraform destroy -force
+```
+
+Resources can be destroyed using the terraform destroy command, which is similar to terraform apply but it behaves as if all of the resources have been removed from the configuration.
+
+## Conclusion
+
+With Terraform, booting a EKS cluster can be done with a single command and it only takes some minutes to get a fully functional configuration.
+Next step : deploy an application in our cluster .
+
+## Resources :
+
+[![Documentation, the Terraform Documentation](/images/terraform.png){:height="50px" width="57px"}](https://www.terraform.io/docs/index.html "the Terraform Documentation"){:target="_blank" } Terraform Documentation
+
+[![Documentation, Provision an EKS Cluster (AWS)](/images/terraform.png){:height="50px" width="57px"}](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster"){:target="_blank" } Provision an EKS Cluster (AWS)
+
+[![Documentation, the AWS IAM Authenticator for Kubernetes](/images/awsauth.png){:height="50px" width="50px"}](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes"){:target="_blank" } AWS IAM Authenticator for Kubernetes
+
+[![Documentation, the AWS CLI](/images/awscli.png){:height="50px" width="50px"}](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI"){:target="_blank" } AWS CLI
+
+
+Next step , see details here
+

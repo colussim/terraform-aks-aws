@@ -89,7 +89,7 @@ Next step : deploy an application in our cluster .
 
 ![Documentation, the AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes")
 
-![Documentation, the AWS CLI](/images/awscli.png)(https://github.com/aws/aws-cli/tree/v2 "the AWS CLI") AWS CLI
+![Documentation, the AWS CLI](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI")
 
 
 Next step , see details here

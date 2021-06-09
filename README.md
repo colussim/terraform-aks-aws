@@ -83,7 +83,7 @@ Next step : deploy an application in our cluster .
 
 ## Resources :
 
-![Documentation, the Terraform Documentation](https://www.terraform.io/docs/index.html "the Terraform Documentation")
+[![Documentation, the Terraform Documentation]](https://www.terraform.io/docs/index.html "the Terraform Documentation")
 
 ![Documentation, Provision an EKS Cluster (AWS)](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster")
 

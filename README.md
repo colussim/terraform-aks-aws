@@ -83,15 +83,14 @@ Next step : deploy an application in our cluster .
 
 ## Resources :
 
-[![Documentation, the Terraform Documentation]](https://www.terraform.io/docs/index.html "the Terraform Documentation")
+[Documentation, the Terraform Documentation](https://www.terraform.io/docs/index.html "the Terraform Documentation")
 
-![Documentation, Provision an EKS Cluster (AWS)](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster")
+[Documentation, Provision an EKS Cluster (AWS)](https://learn.hashicorp.com/tutorials/terraform/eks "Provision an EKS Cluster")
 
-![Documentation, the AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes")
+[Documentation, the AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator "the AWS IAM Authenticator for Kubernetes")
 
-![Documentation, the AWS CLI](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI")
+[Documentation, the AWS CLI](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI")
 
 
-Next step , see details 
-![here](https://techlabnews.com/2021/terraform-EKS-AWS/index.html "Create Amazon EKS cluster using Terraform")
+Next step , see details [here](https://techlabnews.com/2021/terraform-EKS-AWS/index.html "Create Amazon EKS cluster using Terraform")
 

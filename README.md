@@ -26,7 +26,7 @@ Before you get started, you’ll need to have these things:
 ## Initial setup
 
 The first thing to set up is your Terraform. We will create an AWS IAM users for Terraform.
-In your AWS console, go to the IAM section and create a user named “FullAccess”. Then add your user to a group named “FullAccessGroup”. Attaches to this group the following rights:
+In your AWS console, go to the IAM section and create a user named “Terraform”. Then add your user to a group named “FullAccessGroup”. Attaches to this group the following rights:
 
 ```
 

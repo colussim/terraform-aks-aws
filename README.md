@@ -92,5 +92,5 @@ Next step : deploy an application in our cluster .
 [Documentation, the AWS CLI](https://github.com/aws/aws-cli/tree/v2 "the AWS CLI")
 
 
-Next step , see details [here](https://techlabnews.com/2021/terraform-EKS-AWS/index.html "Create Amazon EKS cluster using Terraform")
+Next step , see details [here](https://techlabnews.com/terraform-EKS-AWS/index.html "Create Amazon EKS cluster using Terraform")
 
